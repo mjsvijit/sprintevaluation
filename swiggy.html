@@ -1,0 +1,130 @@
+<html>
+    <head>
+        <title>Order food from favourite restaurants near you.</title>
+        <style>
+            .main{
+                display:flex;
+                 height:100%;
+                 width:100%;
+              background-color:red; 
+              flex-direction: column; 
+               
+            }
+            
+            .maindiv1{
+                display:flex;
+                height:15%;
+                width:100%;
+                background-color:white;
+                align-items: center;
+            }
+            .maindiv2{
+                display:flex;
+                height:300px;
+                width:100%;
+                background-color:rgb(3, 3, 37);
+                flex-direction: row;
+                 align-items:center;
+            }
+            
+            .maindiv3{
+                display:flex;
+                height:80px;
+                width:100%;
+                background-color:rgb(255, 255, 255);
+            }
+            .di{
+               
+                height:270px;
+                width:270px;
+                background-color:rgb(255, 255, 255);
+                margin-left:50px;
+            }
+
+            .maindiv3{
+                display:grid;
+                height:80px;
+                width:100%;
+                background-color:rgb(255, 255, 255);
+              grid-template-columns: 1fr 1fr 1fr 1fr;
+            }
+
+            .did{
+                display:flex;
+                height:270px;
+                width:270px;
+                background-color:rgb(255, 255, 255);
+                margin-left:50px;
+                flex-direction:column;
+            }
+
+            #img1{
+                margin-left:8%;
+                height:90%;
+                width:10%;
+            }
+            #img2{
+                height:270px;
+                width:270px;
+            }
+            #img3{
+                height:150px;
+                width:270px;
+            }
+            #b{
+               background-color: white;
+               margin-left:3%;
+               border-color: white;
+               border-style: hidden;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="main">
+            <div class="maindiv1">
+              
+                     <img id="img1"  src="D:\txt\swiggysingle.png"/>
+                    <h5>Other</h5><p>19th Main Road, HAL 2nd Stage, Kodi...</p>
+                    <button style="margin-left:20%"id="b">Search</button>
+                    <button id="b">Offers<sup style="color:coral">NEW</sup></button> 
+                    <button id="b">Help</button>
+                    <button id="b">Sign In</button>
+                    <button id="b">Cart</button>
+                
+                
+            </div>
+            <div class="maindiv2">
+                <div class="di"><img id="img2" src="D:\txt\offer1.jpeg"/> </div>
+                <div class="di"><img id="img2" src="D:\txt\offer2.jpeg"/> </div>
+                <div class="di"><img id="img2"  src="D:\txt\offer3.jpeg"/> </div>
+                <div class="di"><img id="img2" src="D:\txt\offer4.jpeg"/> </div>
+               
+            </div>
+            <div class="maindiv3">
+               <h1 style="margin-left:10px">1400 restaurants</h1>
+               <button id="b" style="margin-left:20%;">Relevance</button>
+               <button id="b">Delivery Time</button>
+               <button id="b">Rating</button>
+               <button id="b">Cost: Low To High</button>
+               <button id="b">Cost: High To Low</button>
+               <button id="b">Filter</button>
+            </div>
+            <div class="maindiv3">
+                <div class="did"><img id="img3" src="D:\txt\restaurant1.jpeg"/> <h3>Tandoor</h3></div>
+                <div class="did"><img id="img3" src="D:\txt\restaurant10.jpeg"/><h3>Chicken Biryani</h3> </div>
+                <div class="did"><img id="img3" src="D:\txt\restaurant2.jpeg"/> <h3>Bada Pav</h3></div>
+                <div class="did"><img id="img3"  src="D:\txt\restaurant3.jpeg"/> <h3>Chhole Bhature</h3> </div>
+                <div class="did"><img id="img3" src="D:\txt\restaurant4.jpeg"/> <h3>Poteto French Fry</h3></div>
+                <div class="did"><img id="img3" src="D:\txt\restaurant5.jpeg"/> <h3></h3>Chees Pizza</div>
+                <div class="did"><img id="img3" src="D:\txt\restaurant6.jpeg"/>  <h3>Large Burger</h3></div>
+                <div class="did"><img id="img3" src="D:\txt\restaurant7.jpeg"/> <h3>Chiken Curry</h3> </div>
+                <div class="did"><img id="img3" src="D:\txt\restaurant8.jpeg"/> <h3>Veg Biryani</h3></div>
+                <div class="did"><img id="img3" src="D:\txt\restaurant9.jpeg"/> <h3>Full Meal</h3></div>
+                
+               
+            </div>
+            
+        </div>
+    </body>
+</html>
